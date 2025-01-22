@@ -1,0 +1,258 @@
+body {
+	margin: 0px;
+}
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+.container1 {
+	height: 500px;
+	background: linear-gradient(#4b89d4, #734abe);
+}
+
+.title {
+	color: white;
+	font-size: 30px;
+	margin: 0px;
+}
+
+.content {
+	color: white;
+	margin: 0px;
+	margin-top: 20px;
+}
+
+.head-title-box {
+	padding: 20px;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+.button {
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background-color: #444445;
+}
+
+.button:hover {
+	background-color: gray;
+}
+
+.head-button-box {
+	margin-left: 115px;
+	margin-top: -2px;
+}
+
+.head1 {
+	float: left;
+}
+
+.head2 {
+	float: right;
+	margin-right: 300px;
+	margin-top: 100px;
+}
+
+.iphone-image {
+	width: 400px;
+}
+
+.content2 {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.button2 {
+	text-align: center;
+}
+
+.container3 {
+	height: 400px;
+	background-color: #4e61c0;
+	margin-top: 100px;
+}
+
+.title3-1 {
+	margin: 0px;
+	color: white;
+}
+
+.title3 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.icon-box {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 100px;
+	position: relative;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.icon-box i {
+	font-size: 40px;
+	color: #4b89d4;
+	position: absolute;
+	top: 50%; /* 수직 중심 */
+	left: 50%; /* 가로 중심 */
+	transform: translate(-50%, -50%);
+}
+
+.text-icon-box1 {
+	float: left;
+}
+.text-icon-box2 {
+	float: left;
+}
+.text-icon-box3 {
+	float: left;
+}
+.text-icon-box4 {
+	float: left;
+}
+
+.text-box {
+	text-align: center;
+}
+
+.content3 {
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+}
+
+.container4 {
+	height: 100px;
+	margin-top: 40px;
+}
+
+.container4 p,
+h2 {
+	margin: 0px;
+	text-align: center;
+}
+
+.container5 {
+	height: 900px;
+}
+
+.images-box1 {
+	height: 400px;
+	width: 1400px;
+	position: relative;
+	margin-left: 250px;
+}
+.images-box2 {
+	height: 400px;
+	width: 1400px;
+	position: relative;
+	margin-left: 250px;
+}
+
+.image-box1 {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background-image: url("../portfolio-1.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+	transition: transform 0.5s;
+}
+
+.image-box1:hover {
+	transform: scale(0.9);
+}
+
+.image-box2 {
+	height: 100%;
+	width: 50%;
+	background-image: url("../portfolio-2.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	float: right;
+	transition: transform 0.5s;
+}
+
+.image-box2:hover {
+	transform: scale(0.9);
+}
+
+.image-box3 {
+	height: 100%;
+	width: 50%;
+	background-image: url("../portfolio-3.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+	transition: transform 0.5s;
+}
+
+.image-box3:hover {
+	transform: scale(0.9);
+}
+
+.image-box4 {
+	height: 100%;
+	width: 50%;
+	background-image: url("../portfolio-4.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	float: right;
+	transition: transform 0.5s;
+}
+
+.image-box4:hover {
+	transform: scale(0.9);
+}
+
+.text-box2 {
+	margin: 40px;
+}
+
+.share-container {
+	height: 200px;
+}
+
+.share-icon-box {
+	width: 100px;
+	height: 100px;
+	background-color: #4e61c0;
+	border-radius: 100px;
+	position: relative;
+	float: left;
+	margin-left: 100px;
+}
+
+.share-icon {
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	top: 50%; /* 수직 중심 */
+	left: 50%; /* 가로 중심 */
+	transform: translate(-50%, -50%);
+}
+
+.shares-box {
+	margin-left: 600px;
+}
+
+@media screen and (max-width: 768px) {
+	.head2 {
+		width: 260px;
+		display: block;
+		float: none;
+		margin: auto;
+		margin-top: 42px;
+	}
+	.iphone-image {
+		width: 200px;
+	}
+}
